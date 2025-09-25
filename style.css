@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dark-mode section {
+    background-color: #444;
+}
+
+.interactive-feature {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: block; /* Ensures it's on a new line */
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
